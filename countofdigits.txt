@@ -1,0 +1,11 @@
+import java.util.Scanner;
+class Usermaincode{
+public int alldigitscount(int input1){
+int count=0;
+int i;
+for(i=input1;i!=0;i=i/10){
+count++;
+}
+return count;
+}
+}
